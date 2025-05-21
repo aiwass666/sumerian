@@ -61,6 +61,8 @@ window.addEventListener('resize', handleResize);
 });
 ```
 ```css
+// Sumerian Slider. A vanilla Javascript, HTML and CSS slider.
+// Made by Aiwass666 (https://github.com/aiwass666)
 .post-detail-sumerian{
     position:relative;
     overflow:hidden
@@ -157,6 +159,8 @@ window.addEventListener('resize', handleResize);
 ```
 
 ```html
+// Sumerian Slider. A vanilla Javascript, HTML and CSS slider.
+// Made by Aiwass666 (https://github.com/aiwass666)
 <div id="post-detail-sumerian" class="post-detail-slider" tabindex="0">
 <div class="sumerian-list">
 <div class="sumerian-track">
@@ -165,13 +169,12 @@ window.addEventListener('resize', handleResize);
 <span class="img-description"><?= esc($post->image_description); ?></span>
 </div>
 
-// Example on how to dynamically via PHP add more images in to the Sumerian Slider
-<?php foreach ($postImages as $image): $imgBaseURL = getBaseURLByStorage($image->storage); ?> 
+// Example on how to dynamically via add more images in to the Sumerian Slider. Copy and paste the following 4 lines to add more images.
 <div class="post-detail-sumerian-item">
 <img src="IMG URL" alt="<?= esc($post->title); ?>" width="XXX" height="XXX" loading="lazy">
 <span class="img-description"><?= esc($post->image_description); ?></span>
 </div>
-<?php endforeach; ?>
+// Example on how to dynamically via add more images in to the Sumerian Slider. Copy and paste the following 4 lines above to add more images.
 
 </div>
 </div>
