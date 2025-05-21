@@ -5,6 +5,8 @@ In order to use this script you should have some knowledge about how to edit and
 ## Code (the same as in the files)
 
 ```javascript
+// Sumerian Slider. A vanilla Javascript, HTML and CSS slider.
+// Made by Aiwass666 (https://github.com/aiwass666)
 document.addEventListener('DOMContentLoaded', function() {
 const slider = document.getElementById('post-detail-sumerian');
 const sliderList = slider.querySelector('.sumerian-list');
