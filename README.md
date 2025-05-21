@@ -2,6 +2,8 @@
 Sumerian is a vanilla javascript image slider that is small and rather easy to use with zero dependencies and uncomplicated HTML and CSS.
 In order to use this script you should have some knowledge about how to edit and implement HTML, CSS and the javascript code.
 
+## Code (the same as in the files)
+
 ```javascript
 document.addEventListener('DOMContentLoaded', function() {
 const slider = document.getElementById('post-detail-sumerian');
