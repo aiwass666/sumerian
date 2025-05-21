@@ -1,0 +1,23 @@
+<div id="post-detail-sumerian" class="post-detail-slider" tabindex="0">
+<div class="sumerian-list">
+<div class="sumerian-track">
+<div class="post-detail-sumerian-item">
+<img src="IMG URL" alt="<?= esc($post->title); ?>" width="XXX" height="XXX" loading="eager" fetchpriority="high">
+<span class="img-description"><?= esc($post->image_description); ?></span>
+</div>
+
+// Example on how to dynamically via PHP add more images in to the Sumerian Slider
+<?php foreach ($postImages as $image): $imgBaseURL = getBaseURLByStorage($image->storage); ?> 
+<div class="post-detail-sumerian-item">
+<img src="IMG URL" alt="<?= esc($post->title); ?>" width="XXX" height="XXX" loading="lazy">
+<span class="img-description"><?= esc($post->image_description); ?></span>
+</div>
+<?php endforeach; ?>
+
+</div>
+</div>
+</div>
+<div id="post-detail-sumerian-nav" class="post-detail-sumerian-nav">
+<button class="prev sumerian-arrow" title="Previous"><i class="bi bi-chevron-left"></i></button>
+<button class="next sumerian-arrow" title="Next"><i class="bi bi-chevron-right"></i></button>
+</div>
