@@ -61,8 +61,6 @@ window.addEventListener('resize', handleResize);
 });
 ```
 ```css
-// Sumerian Slider. A vanilla Javascript, HTML and CSS slider.
-// Made by Aiwass666 (https://github.com/aiwass666)
 .post-detail-sumerian{
     position:relative;
     overflow:hidden
@@ -159,8 +157,6 @@ window.addEventListener('resize', handleResize);
 ```
 
 ```html
-// Sumerian Slider. A vanilla Javascript, HTML and CSS slider.
-// Made by Aiwass666 (https://github.com/aiwass666)
 <div id="post-detail-sumerian" class="post-detail-slider" tabindex="0">
 <div class="sumerian-list">
 <div class="sumerian-track">
