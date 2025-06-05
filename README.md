@@ -4,6 +4,7 @@ In order to use this script you should have some knowledge about how to edit and
 
 ## Code (the same as in the files)
 
+### Javascript
 ```javascript
 // Sumerian Slider. A vanilla Javascript, HTML and CSS slider.
 // Made by Aiwass666 (https://github.com/aiwass666)
@@ -60,6 +61,7 @@ updateSlider();
 window.addEventListener('resize', handleResize);
 });
 ```
+### CSS
 ```css
 .post-detail-sumerian{
     position:relative;
@@ -155,7 +157,7 @@ window.addEventListener('resize', handleResize);
     opacity:.9
 }
 ```
-
+### HTML
 ```html
 <div id="post-detail-sumerian" class="post-detail-slider" tabindex="0">
 <div class="sumerian-list">
